@@ -53,7 +53,7 @@ class DataFrame:
         # ax[0].plot(t, y)
         # ax[0].set_xlabel('Time')
         # ax[0].set_ylabel('Amplitude')
-        # ax[1].stem(freqs, Y)  # plotting the spectrum
+        # ax[1].stem(freqs[:1000], Y[:1000])  # plotting the spectrum
         # ax[1].set_xlabel('Freq (Musical Notes)')
         # ax[1].set_ylabel('|Y(freq)|')
         # ax[1].set_xlim(-1, 12)
